@@ -1,0 +1,87 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #4d0200;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background-color: #79120f;
+  color: rgb(255, 255, 255);
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #ffffff;
+}
+
+body {
+  padding: 50px 0px 50px 0px;
+  z-index: 0;
+  background-color: #3f0200;
+}
+
+.navbar-dark {
+  background-color: #4d0200;
+}
+
+.tab-content {
+  border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.carousel {
+  background-color: #79120f;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.slider-img-block {
+  flex: 0 0 auto;
+  margin: 5px;
+  position: relative;
+  width: 100%;
+  background: rgba(0,0,0,.02);
+  height: 100%;
+  min-height: 250px;
+
+  img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.slider-description-block {
+  color: white;
+}
+
+
+

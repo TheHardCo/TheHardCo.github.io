@@ -4,7 +4,7 @@ import style from "../assets/css/masthead.module.css";
 const Welcome = () => {
   return (
     <div className={style.masthead}>
-      <div className={style.heading}>
+      <div data-testid="welcome" className={style.heading}>
         Welcome To "RecipeIt"
         <div className={style.heading2}>It's Nice To Meet You!</div>
         <div className={style.text}>

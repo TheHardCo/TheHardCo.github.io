@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-} from 'reactstrap';
+} from "reactstrap";
 
 const NavbarHead = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const NavbarHead = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div data-testid="navbar">
       <Navbar color="light" light expand="md">
         <NavbarBrand>RecipeIt</NavbarBrand>
         <NavbarToggler onClick={toggle} />

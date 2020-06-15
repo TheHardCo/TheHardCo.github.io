@@ -1,0 +1,1 @@
+A single page application created based on a part of static templates. I chose a front end framework - React.js, setup the local environment, defined routing and implemented components. As a result all features for recipe finding is implemented. Also unit tests are written, using test framework Jest.
